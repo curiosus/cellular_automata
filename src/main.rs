@@ -10,7 +10,7 @@ async fn main() {
     let num_of_cells = SCREEN_SIZE / CELL_SIZE;
     let mut generations: Vec<[i32; SCREEN_SIZE / CELL_SIZE]> = Vec::new();
 
-    let mut current_ruleset: i32 = 30;
+    let mut current_ruleset: i32 = 90;
 
     cells[400] = 1;
 
