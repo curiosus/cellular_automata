@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cellular Automata</title>
+  <style>
+    html,
+    body,
+    canvas {
+      margin: 0;
+      padding: 0;
+      width: 80%;
+      height: 80%;
+      overflow: hidden;
+      position: absolute;
+      background: yellow;
+      z-index: 0;
+    }
+  </style>
+</head>
+<body>
+<canvas id="glcanvas" tabindex='1'></canvas>
+<script src="https://not-fl3.github.io/miniquad-samples/mq_js_bundle.js"></script>
+<script>load("cellular_automata.wasm");</script>
+
+</body>
+</html>
