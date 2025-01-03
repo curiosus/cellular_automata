@@ -2,7 +2,7 @@ use macroquad::prelude::*;
 
 #[macroquad::main("Cellular Automata")]
 async fn main() {
-    const SCREEN_SIZE: usize = 1200;
+    const SCREEN_SIZE: usize = 600;
     request_new_screen_size(SCREEN_SIZE as f32 * 1.0, SCREEN_SIZE as f32);
 
     const CELL_SIZE: usize = 1;
@@ -12,7 +12,7 @@ async fn main() {
 
     let mut current_ruleset: i32 = 90;
 
-    cells[600] = 1;
+    cells[300] = 1;
 
     generations.append(&mut vec![cells.clone()]);
 
